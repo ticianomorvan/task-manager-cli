@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 uuid = { version = "1.3.0", features = ["v4", "fast-rng", "macro-diagnostics"] }
-postgres = { version = "0.19.4" }
+postgres = { version = "0.19.4", features = ["with-uuid-1"] }
 dotenv = { version = "0.15.0" }
